@@ -17,7 +17,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ContactForm from "./components/Contact Me/contact";
+import Contact from "./components/Contact Me/contact";
 
 function App() {
   const [load, upadateLoad] = useState(true);
