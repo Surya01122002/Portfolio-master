@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+import ContactForm from "./components/Contact Me/contact";
 // import Contact from "./components/Contact";
 import {
   BrowserRouter as Router,
@@ -17,7 +18,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ContactForm from "./components/Contact Me/contact";
+
 
 function App() {
   const [load, upadateLoad] = useState(true);

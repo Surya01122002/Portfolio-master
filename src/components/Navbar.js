@@ -94,9 +94,11 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="/contact"
-                target="_self"
-                rel="noreferrer"
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+                // target="_self"
+                // rel="noreferrer"
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
