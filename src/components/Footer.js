@@ -16,11 +16,6 @@ function Footer() {
         <Col md="4" className="footer-copywright">
           <h3>Surya Pitchaiyan</h3>
         </Col>
-        {/* <Col md="4" className="footer-copywright">
-          <h3><a style={{ color: "White" }}
-            href="mailto:Surya01122002@gmail.com">
-            Email:Surya01122002@gmail.com</a></h3>
-        </Col> */}
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
@@ -55,7 +50,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
+                href="https://www.instagram.com/sur_ya.01/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
